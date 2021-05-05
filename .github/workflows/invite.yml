@@ -12,4 +12,4 @@ jobs:
     - name: invite-contributor
       uses: ./action
       env:
-        GITHUB_TOKEN: ${{ secrets.BDOUGIE_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
